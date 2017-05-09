@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var carImages: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +23,20 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func button1(_ sender: UIButton) {
+        carImages.image = UIImage(named: "Car 1.jpeg")
+    }
+    @IBAction func button2(_ sender: UIButton) {
+        carImages.image = UIImage(named: "Car 2.jpeg")
+    }
+    @IBAction func button3(_ sender: UIButton) {
+        carImages.image = UIImage(named: "Car 3.png")
+    }
+    @IBAction func button4(_ sender: UIButton) {
+        carImages.image = UIImage(named: "Car 4.jpg")
+    }
+    @IBAction func button5(_ sender: UIButton) {
+        carImages.image = UIImage(named: "Car 5.jpeg")
+    }
 }
 

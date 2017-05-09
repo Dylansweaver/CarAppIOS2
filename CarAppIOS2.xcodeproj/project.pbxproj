@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00719DC81EC13630005DBBD6 /* car 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00719DC31EC13630005DBBD6 /* car 1.jpeg */; };
+		00719DC91EC13630005DBBD6 /* car 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00719DC41EC13630005DBBD6 /* car 2.jpeg */; };
+		00719DCA1EC13630005DBBD6 /* car 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 00719DC51EC13630005DBBD6 /* car 3.png */; };
+		00719DCB1EC13630005DBBD6 /* car 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00719DC61EC13630005DBBD6 /* car 4.jpg */; };
+		00719DCC1EC13630005DBBD6 /* car 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00719DC71EC13630005DBBD6 /* car 5.jpeg */; };
 		00A3218E1EC066F600B3E46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3218D1EC066F600B3E46E /* AppDelegate.swift */; };
 		00A321901EC066F600B3E46E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A3218F1EC066F600B3E46E /* ViewController.swift */; };
 		00A321931EC066F600B3E46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A321911EC066F600B3E46E /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		00A321981EC066F600B3E46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A321961EC066F600B3E46E /* LaunchScreen.storyboard */; };
 		00A321A31EC066F700B3E46E /* CarAppIOS2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A321A21EC066F700B3E46E /* CarAppIOS2Tests.swift */; };
 		00A321AE1EC066F700B3E46E /* CarAppIOS2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A321AD1EC066F700B3E46E /* CarAppIOS2UITests.swift */; };
+		00A321BC1EC0686800B3E46E /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00A321BB1EC0686800B3E46E /* car.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00719DC31EC13630005DBBD6 /* car 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "car 1.jpeg"; path = "Assets.xcassets/car 1.jpeg"; sourceTree = "<group>"; };
+		00719DC41EC13630005DBBD6 /* car 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "car 2.jpeg"; path = "Assets.xcassets/car 2.jpeg"; sourceTree = "<group>"; };
+		00719DC51EC13630005DBBD6 /* car 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "car 3.png"; path = "Assets.xcassets/car 3.png"; sourceTree = "<group>"; };
+		00719DC61EC13630005DBBD6 /* car 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "car 4.jpg"; path = "Assets.xcassets/car 4.jpg"; sourceTree = "<group>"; };
+		00719DC71EC13630005DBBD6 /* car 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "car 5.jpeg"; path = "Assets.xcassets/car 5.jpeg"; sourceTree = "<group>"; };
 		00A3218A1EC066F600B3E46E /* CarAppIOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarAppIOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A3218D1EC066F600B3E46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00A3218F1EC066F600B3E46E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		00A321A91EC066F700B3E46E /* CarAppIOS2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarAppIOS2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A321AD1EC066F700B3E46E /* CarAppIOS2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAppIOS2UITests.swift; sourceTree = "<group>"; };
 		00A321AF1EC066F700B3E46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A321BB1EC0686800B3E46E /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = car.jpg; path = Assets.xcassets/car.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,12 @@
 				00A3218F1EC066F600B3E46E /* ViewController.swift */,
 				00A321911EC066F600B3E46E /* Main.storyboard */,
 				00A321941EC066F600B3E46E /* Assets.xcassets */,
+				00719DC31EC13630005DBBD6 /* car 1.jpeg */,
+				00719DC41EC13630005DBBD6 /* car 2.jpeg */,
+				00719DC51EC13630005DBBD6 /* car 3.png */,
+				00719DC61EC13630005DBBD6 /* car 4.jpg */,
+				00719DC71EC13630005DBBD6 /* car 5.jpeg */,
+				00A321BB1EC0686800B3E46E /* car.jpg */,
 				00A321961EC066F600B3E46E /* LaunchScreen.storyboard */,
 				00A321991EC066F600B3E46E /* Info.plist */,
 			);
@@ -232,8 +250,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A321BC1EC0686800B3E46E /* car.jpg in Resources */,
 				00A321981EC066F600B3E46E /* LaunchScreen.storyboard in Resources */,
+				00719DCB1EC13630005DBBD6 /* car 4.jpg in Resources */,
+				00719DCA1EC13630005DBBD6 /* car 3.png in Resources */,
+				00719DC91EC13630005DBBD6 /* car 2.jpeg in Resources */,
+				00719DCC1EC13630005DBBD6 /* car 5.jpeg in Resources */,
 				00A321951EC066F600B3E46E /* Assets.xcassets in Resources */,
+				00719DC81EC13630005DBBD6 /* car 1.jpeg in Resources */,
 				00A321931EC066F600B3E46E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +531,7 @@
 				00A321B41EC066F700B3E46E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A321B51EC066F700B3E46E /* Build configuration list for PBXNativeTarget "CarAppIOS2Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +540,7 @@
 				00A321B71EC066F700B3E46E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00A321B81EC066F700B3E46E /* Build configuration list for PBXNativeTarget "CarAppIOS2UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +549,7 @@
 				00A321BA1EC066F700B3E46E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

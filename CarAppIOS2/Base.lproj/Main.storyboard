@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CarAppIOS2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,76 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQj-Rm-3UU">
+                                <rect key="frame" x="102" y="584" width="37" height="30"/>
+                                <state key="normal" title="Car 2"/>
+                                <connections>
+                                    <action selector="button2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bxF-VJ-Pdr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAl-us-NfW">
+                                <rect key="frame" x="30" y="584" width="35" height="30"/>
+                                <state key="normal" title="Car 1"/>
+                                <connections>
+                                    <action selector="button1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UnM-uO-qys"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBU-0M-kNL">
+                                <rect key="frame" x="159" y="583" width="38" height="30"/>
+                                <state key="normal" title="Car 3"/>
+                                <connections>
+                                    <action selector="button3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="71d-iP-Gpo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cj2-9T-z87">
+                                <rect key="frame" x="223" y="584" width="38" height="30"/>
+                                <state key="normal" title="Car 4"/>
+                                <connections>
+                                    <action selector="button4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iat-56-SNz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AH4-wt-0cU">
+                                <rect key="frame" x="283" y="584" width="42" height="30"/>
+                                <state key="normal" title="Car  5"/>
+                                <connections>
+                                    <action selector="button5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mFQ-jG-Nhd"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="car 1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="0o5-gS-Sng">
+                                <rect key="frame" x="7" y="99" width="275" height="183"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="254" id="p3t-e7-a3k"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mAl-us-NfW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="14" id="D2I-Dv-yCG"/>
+                            <constraint firstItem="mAl-us-NfW" firstAttribute="baseline" secondItem="sQj-Rm-3UU" secondAttribute="baseline" id="GA7-MG-6mC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mAl-us-NfW" secondAttribute="bottom" constant="53" id="Ky0-af-Al5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TBU-0M-kNL" secondAttribute="bottom" constant="54" id="OJ2-0O-GbH"/>
+                            <constraint firstItem="Cj2-9T-z87" firstAttribute="baseline" secondItem="AH4-wt-0cU" secondAttribute="baseline" id="PeX-9I-Jtq"/>
+                            <constraint firstItem="sQj-Rm-3UU" firstAttribute="baseline" secondItem="Cj2-9T-z87" secondAttribute="baseline" id="YiY-Wj-g24"/>
+                            <constraint firstItem="Cj2-9T-z87" firstAttribute="leading" secondItem="TBU-0M-kNL" secondAttribute="trailing" constant="26" id="dyP-Ko-Mfr"/>
+                            <constraint firstItem="sQj-Rm-3UU" firstAttribute="leading" secondItem="mAl-us-NfW" secondAttribute="trailing" constant="37" id="qZE-eg-fGs"/>
+                            <constraint firstItem="0o5-gS-Sng" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rFo-Zd-dDy"/>
+                            <constraint firstItem="0o5-gS-Sng" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-9" id="rlm-6m-D9d"/>
+                            <constraint firstItem="AH4-wt-0cU" firstAttribute="leading" secondItem="Cj2-9T-z87" secondAttribute="trailing" constant="22" id="sMO-GL-dFU"/>
+                            <constraint firstItem="0o5-gS-Sng" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="wDg-3o-3Ao"/>
+                            <constraint firstItem="TBU-0M-kNL" firstAttribute="leading" secondItem="sQj-Rm-3UU" secondAttribute="trailing" constant="20" id="yyK-GK-yem"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="carImages" destination="0o5-gS-Sng" id="C1K-g5-X7S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="car 1.jpeg" width="275" height="183"/>
+    </resources>
 </document>
